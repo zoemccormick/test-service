@@ -1,0 +1,3 @@
+include cogito_service/server/static/*
+include cogito_service/server/static/css/*
+include cogito_service/server/static/fonts/*
