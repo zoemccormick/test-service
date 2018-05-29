@@ -22,6 +22,6 @@ COPY ./setup.py /opt/services/test/
 RUN cd /opt/services/test/ && \
     python setup.py install
 
-EXPOSE 9000
+EXPOSE 3000
 
 CMD cd && test-start

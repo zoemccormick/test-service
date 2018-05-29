@@ -9,9 +9,9 @@ import os
 import yaml
 
 DEFAULTS = {"ENABLE_HTTP": True,
-            "HTTP_PORT": 9000,
+            "HTTP_PORT": 3000,
             "ENABLE_HTTPS": False,
-            "HTTPS_PORT": 9443,
+            "HTTPS_PORT": 3001,
             "SERVER_KEY": "",
             "SERVER_CERT": "",
             "ZK_CONN_STRING": "127.0.0.1:2181",
