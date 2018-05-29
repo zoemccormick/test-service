@@ -1,0 +1,8 @@
+{
+  "ENABLE_HTTP": true,
+  "HTTP_PORT": 9000,
+  "ENABLE_HTTPS": true,
+  "HTTPS_PORT": 9443,
+  "SERVER_KEY": "",
+  "SERVER_CERT": ""
+}

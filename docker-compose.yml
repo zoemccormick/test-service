@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  spacy:
+    image: test
+    hostname: test
+    networks:
+      - default
+    ports:
+      - "9000:9000"
+    build:
+      context: .
+      dockerfile: docker/centos/Dockerfile
+    container_name: test-container
